@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 {
   Player player = (argc == 1 ? WHITE : BLACK);
   int claimed_piece;
-  int coords[4];
+  int coords[4]; // current y, current x, new y, new x
   
   // screen configuration
   initscr();
